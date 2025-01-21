@@ -1,0 +1,58 @@
+/**********************TABLE*******************************/
+.cl-folder-view-container {
+    padding: 0px;
+    margin: 10px 10px 0px 205px;
+    height: auto;
+    width: auto;  
+}
+.cl-folder-view-container .tableStyle {
+    max-height: 770px; 
+    max-width: 1850px;
+    overflow-y: auto; 
+    border-radius: 5px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.3);
+  };
+  .cl-folder-view-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+    color: #ebe1e3;
+}
+
+.cl-clickable-cell-table {
+    color: #12b9c5;
+    cursor: pointer;
+    background: rgba(55, 58, 71, 0.7);
+}
+.cl-cell-table{
+    padding:5px 0px 0px 0px;
+    text-align:left;
+    background: rgba(55, 58, 71, 0.7);
+    color: rgb(67, 236, 52);
+}
+.cl-clickable-cell {
+    padding:5px 0px 0px 5px;
+    color: #1dd3e0;
+    cursor: pointer;
+}
+.cl-clickable-cell:hover {
+    padding:5px 0px 0px 5px;
+    color: #116d74;
+    cursor: pointer;
+}
+
+.cl-cell-table:hover{
+    padding:5px 0px 0px 5px;
+    text-align:left;
+    color: black;
+}
+ .cl-header-cell .rs-table-cell-content{
+    background-color: #8B4513;
+    color: white;
+    font-weight: bold;
+    padding: 4px 0 4px 10;
+    position: sticky;
+    top: 0;
+    
+}

@@ -1,0 +1,45 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+html, body {
+  height: 100%;
+}
+
+
+
+ /**********************CONTAINER*******************************/
+ .container {
+  display: flex;
+  flex: 1;
+}
+
+.rs-panel-bordered{
+background-color: rgba(2, 0, 0, 0.692);
+color: #dddde4;
+width: 350px;
+}
+
+/**********************CONTENT*******************************/
+.content 
+{
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+/***********************BUTTON*****************************/
+.custom-button {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  width: 84%;
+
+}
+.custom-button:hover, 
+.custom-button:focus {
+background-color: #28a745 !important;
+border-color: #1f618d;
+}
+
